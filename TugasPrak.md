@@ -15,7 +15,7 @@ void main() {
 ```
 
 Output yang diminta:
-![alt text](img/output_yg_diminta.png)
+>![alt text](img/output_yg_diminta.png)
 > Jawaban:
 ```dart
 void main() {
@@ -25,7 +25,7 @@ void main() {
 }
 ```
 > Hasil
-![alt text](img/hasil.png)
+> ![alt text](img/hasil.png)
 
 ### SOAL 2
 Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita menggunakan framework Flutter ? Jelaskan!
