@@ -16,6 +16,7 @@ void main() {
 
 Output yang diminta:
 >![alt text](img/output_yg_diminta.png)
+
 > Jawaban:
 ```dart
 void main() {
@@ -25,6 +26,7 @@ void main() {
 }
 ```
 > Hasil
+
 > ![alt text](img/hasil.png)
 
 ### SOAL 2
