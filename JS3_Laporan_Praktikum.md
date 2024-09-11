@@ -47,8 +47,8 @@ if (test == "true") {
     print("Kesalahan");
 }
 ```
-> * Hasil:
-> ![alt text](img/prak1-1.png)
+> * ![alt text](img/prak1-1.png)
+
 > * Hasil output seperti gambar diatas, dikarenakan terdapat if atau jika test sama dengan true maka akan menghasilkan output "Kebenaran".
 
 #### Praktikum 2: Menerapkan Perulangan "while" dan "do-while"
@@ -71,10 +71,11 @@ while (counter < 33) {
     counter++;
 }
 ```
-> * Hasil:
-> ![alt text](img/prak2.png)
+> * Hasil: 
 
-**Langkah 3**
+> * ![alt text](img/prak2.png)
+
+**Langkah 3:**
 Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 ```dart
 do {
@@ -92,8 +93,10 @@ do {
 } while (counter < 77);
 ```
 > * Hasil:
-> ![alt text](img/prak2-1.png)
-> ![alt text](img/prak2-2.png)
+
+> * ![alt text](img/prak2-1.png)
+
+> * ![alt text](img/prak2-2.png)
 
 #### Praktikum 3: Menerapkan Perulangan "for" dan "break-continue"
 **Langkah 1:**
@@ -114,7 +117,8 @@ for (index = 10; index < 27; index++) {
 }
 ```
 > * Hasil:
-> ![alt text](img/prak3.png)
+
+> * ![alt text](img/prak3.png)
 
 **Langkah 3:**
 Tambahkan kode program berikut di dalam for-loop, lalu coba eksekusi (Run) kode Anda.
@@ -125,7 +129,7 @@ print(index);
 ```
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.
 > * Hasil:
-> ![alt text](img/prak3-1.png)
+> * ![alt text](img/prak3-1.png)
 
 #### SOAL 2
 2. Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
@@ -161,7 +165,8 @@ void main() {
 }
 ```
 > * Hasil:
-> ![alt text](img/soal2.png)
+
+> * ![alt text](img/soal2.png)
 
 
 #### SOAL 3
