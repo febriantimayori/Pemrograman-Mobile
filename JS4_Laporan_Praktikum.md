@@ -73,7 +73,7 @@ print(names2);
 print(names3);
 ```
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan ketiga variabel tersebut. 
-> * **Jawaban:** Tidak terjadi eror, Output hanya akan menampilkan `{}` tanpa nilai, karena set dan map yang dideklarasikan di sini adalah kosong..
+> * **Jawaban:** Tidak terjadi eror, Output hanya akan menampilkan `{}` tanpa nilai, karena set dan map yang dideklarasikan di sini adalah kosong.
 > ![alt text](img/prak2-2.png)
 
 Tambahkan elemen nama dan NIM Anda pada kedua variabel Set tersebut dengan dua fungsi berbeda yaitu .add() dan .addAll(). Untuk variabel Map dihapus, nanti kita coba di praktikum selanjutnya.
@@ -91,7 +91,7 @@ void main() {
   print(names2);
 }
 ```
-> * Hasil
+> Hasil:
 > ![alt text](img/prak2-3.png)
 
 #### Praktikum 3: Eksperimen Tipe Data Maps
@@ -154,7 +154,7 @@ print(nobleGases);
 print(mhs1);
 print(mhs2);
 ```
-> * Hasil
+> Hasil:
 > ![alt text](img/prak3-3.png)
 
 #### Praktikum 4: Eksperimen Tipe Data List: Spread dan Control-flow Operators
@@ -194,7 +194,7 @@ var list3 = [0, ...?list1];
 print(list3.length);
 ```
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
-> * **Jawaban:** Terjadi eror, karena variabel list1 tidak dideklarasikan sebelumnya, yang menyebabkan error "undefined name `list1`".
+> * **Jawaban:** Terjadi eror, karena variabel list1 tidak dideklarasikan sebelumnya, yang menyebabkan error "`undefined name list1`".
 > ![alt text](img/prak4-2.png)
 
 Tambahkan variabel list berisi NIM Anda menggunakan Spread Operators!
@@ -205,7 +205,7 @@ var list3 = [2241720248, ...list1];
 print(list3);
 print(list3.length);
 ```
-> * Hasil
+> Hasil:
 > ![alt text](img/prak4-3.png)
 
 **Langkah 4:**
@@ -318,7 +318,7 @@ void main() {
   print(tukar((05, 15)));
 }
 ```
-> * Hasil:
+> Hasil:
 > ![alt text](img/prak5-2.png)
 
 **Langkah 4:**
@@ -335,7 +335,7 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Inisialisasi field nama
 mahasiswa = ("Febrianti Mayori", 2241720248);
 print(mahasiswa);
 ```
-> * Hasil:
+> Hasil:
 > ![alt text](img/prak5-3.png)
 
 **Langkah 5:**
@@ -356,7 +356,7 @@ print(mahasiswa2.a); // Prints 2
 print(mahasiswa2.b); // Prints true
 print(mahasiswa2.$2); // Prints 'last'
 ```
-> * Hasil:
+> Hasil:
 > ![alt text](img/prak5-5.png)
 
 #### SOAL 2
