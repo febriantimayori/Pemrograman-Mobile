@@ -361,11 +361,11 @@ print(mahasiswa2.$2); // Prints 'last'
 
 #### SOAL 2
 2. Jelaskan yang dimaksud Functions dalam bahasa Dart!
-**Jawaban:** Dalam bahasa dart, Functions adalah blok kode yang dapat dipanggil dan dieksekusi. Yang dapat menerima argumen (input) dan mengembalikan nilai (output). Functions di Dart dideklarasikan dengan kata kunci void untuk fungsi tanpa nilai kembali, atau tipe data lain untuk fungsi yang mengembalikan nilai.
+> **Jawaban:** Dalam bahasa dart, Functions adalah blok kode yang dapat dipanggil dan dieksekusi. Yang dapat menerima argumen (input) dan mengembalikan nilai (output). Functions di Dart dideklarasikan dengan kata kunci void untuk fungsi tanpa nilai kembali, atau tipe data lain untuk fungsi yang mengembalikan nilai.
 
 #### SOAL 3
 3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
-**Jawaban:**
+> **Jawaban:**
 * Positional Parameters: Parameter yang harus diberikan dalam urutan yang sesuai. Contoh:
 ```dart
 void greet(String name, int age) {
@@ -411,7 +411,7 @@ void main() {
 
 #### SOAL 4
 4. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
-**Jawaban:** Dalam Dart, functions adalah objek kelas satu (first-class objects), yang berarti fungsi dapat diperlakukan sebagai nilai yang dapat disimpan dalam variabel, mengirimkannya sebagai argumen ke fungsi lain, dan dikembalikan sebagai nilai dari fungsi. Contoh:
+> **Jawaban:** Dalam Dart, functions adalah objek kelas satu (first-class objects), yang berarti fungsi dapat diperlakukan sebagai nilai yang dapat disimpan dalam variabel, mengirimkannya sebagai argumen ke fungsi lain, dan dikembalikan sebagai nilai dari fungsi. Contoh:
 ```dart
 Function createMultiplier(int factor) {
   return (int number) => number * factor;
@@ -425,7 +425,7 @@ void main() {
 
 #### SOAL 5
 5. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
-**Jawaban:** Anonymous functions atau lambda functions adalah fungsi tanpa nama. Fungsi ini sering digunakan untuk operasi singkat yang tidak memerlukan nama fungsi eksplisit. Dalam Dart, anonymous functions sering digunakan dengan metode koleksi seperti forEach, map, atau where. Contoh:
+> **Jawaban:** Anonymous functions atau lambda functions adalah fungsi tanpa nama. Fungsi ini sering digunakan untuk operasi singkat yang tidak memerlukan nama fungsi eksplisit. Dalam Dart, anonymous functions sering digunakan dengan metode koleksi seperti forEach, map, atau where. Contoh:
 ```dart
 void main() {
   var numbers = [1, 2, 3, 4];
@@ -439,7 +439,7 @@ void main() {
 
 #### SOAL 6
 6. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
-**Jawaban:** 
+> **Jawaban:** 
 * Lexical scope merujuk pada cara akses variabel yang hanya bisa dilakukan dalam lingkungan (scope) di mana variabel tersebut didefinisikan. Contoh:
 ```dart
 void main() {
@@ -473,7 +473,7 @@ void main() {
 
 #### SOAL 7
 7. Jelaskan dengan contoh cara membuat return multiple value di Functions!
-**Jawaban:** Menggunakan Record. Yang memungkinkan untuk mengembalikan beberapa nilai secara langsung tanpa perlu mendefinisikan class terpisah. Record adalah tipe data ringan yang memungkinkan pengelompokan nilai dengan cara yang lebih sederhana. Contoh:
+> **Jawaban:** Menggunakan Record. Yang memungkinkan untuk mengembalikan beberapa nilai secara langsung tanpa perlu mendefinisikan class terpisah. Record adalah tipe data ringan yang memungkinkan pengelompokan nilai dengan cara yang lebih sederhana. Contoh:
 ```dart
 void main() {
   (int sum, int product) calculate(int a, int b) {
